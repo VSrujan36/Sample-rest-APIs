@@ -8,7 +8,7 @@ public class AdditionController {
     @GetMapping("/add/{number1}/{number2}/{number3}")
     public String additionThree(@PathVariable Integer number1, @PathVariable Integer number2, @PathVariable Integer number3) {
         int i = number1 + number2 + number3;
-        String additionResultt =  String.valueOf(i);
-        return additionResultt;
+        String additionResult =  String.valueOf(i);
+        return additionResult;
     }
 }
