@@ -11,7 +11,7 @@ public class Calculator {
     @GetMapping("/add/{number1}/{number2}")
     public String addition(@PathVariable Integer number1, @PathVariable Integer number2) {
         int i = number1 + number2;
-        String s =  String.valueOf(i);
-        return s;
+        String additionResult =  String.valueOf(i);
+        return additionResult;
     }
 }
